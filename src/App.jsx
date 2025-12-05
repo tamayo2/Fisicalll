@@ -1,9 +1,9 @@
 import { useState } from "react";
-import LoadingScreen from "./Components/LoadingScreen.jsx";
-import WelcomeModal from "./Components/WelcomeModal.jsx";
-import MainMenu from "./Components/MainMenu.jsx";
+import LoadingScreen from "./components/LoadingScreen.jsx";
+import WelcomeModal from "./components/WelcomeModal.jsx";
+import MainMenu from "./components/MainMenu.jsx";
 import Home from "./pages/Home.jsx";
-import BackgroundAudio from "./Components/BackgroundAudio.jsx";
+import BackgroundAudio from "./components/BackgroundAudio.jsx";
 import TheoryPage from "./pages/TheoryPage.jsx";
 
 export default function App() {

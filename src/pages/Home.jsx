@@ -3,8 +3,8 @@ import ResultsCard from "../components/Results/ResultsCard";
 import SpectrumBar from "../components/Spectrum/SpectrumBar";
 import TheoryCard from "../components/Theory/TheoryCard";
 import { useState } from "react";
-import SimulationPanel2D from "../Components/Simulation2D/SimulationPanel2D.jsx";
-import Simulation3DPanel from "../Components/Simulation3D/Simulation3DPanel.jsx";
+import SimulationPanel2D from "../components/Simulation2D/SimulationPanel2D.jsx";
+import Simulation3DPanel from "../components/Simulation3D/Simulation3DPanel.jsx";
 
 export default function Home() {
     const [data, setData] = useState(null);
