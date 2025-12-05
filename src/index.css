@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+        transform: scale(0.96);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.animate-fade-in {
+    animation: fade-in 0.4s ease-out;
+}
+
+.menu-btn {
+    @apply px-6 py-3 bg-indigo-600 rounded-lg text-white font-semibold text-lg hover:bg-indigo-700 transition shadow-lg hover:scale-105;
+}
