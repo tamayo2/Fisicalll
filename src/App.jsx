@@ -1,9 +1,10 @@
 import { useState } from "react";
-import LoadingScreen from "./components/LoadingScreen";
-import WelcomeModal from "./components/WelcomeModal";
-import MainMenu from "./components/MainMenu";
-import Home from "./pages/Home";
-import BackgroundAudio from "./components/BackgroundAudio";
+import LoadingScreen from "./Components/LoadingScreen.jsx";
+import WelcomeModal from "./Components/WelcomeModal.jsx";
+import MainMenu from "./Components/MainMenu.jsx";
+import Home from "./pages/Home.jsx";
+import BackgroundAudio from "./Components/BackgroundAudio.jsx";
+import TheoryPage from "./pages/TheoryPage.jsx";
 
 export default function App() {
     const [loadingDone, setLoadingDone] = useState(false);
@@ -30,7 +31,7 @@ export default function App() {
             {/* Cuando el usuario selecciona un módulo */}
             {menuChoice === "2d" && <Home />}
             {menuChoice === "3d" && <Home scrollTo3D={true} />}
-            {menuChoice === "theory" && <div>EN DESARROLLO…</div>}
+            {menuChoice === "theory" && <TheoryPage />}
 
         </div>
     );
